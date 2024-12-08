@@ -8,7 +8,7 @@ const instance = axios.create({
     }
 })
 
-// api
+// ------api-----
 export const authAPI = {
     me() {
         return instance.get<ResponseType<{
